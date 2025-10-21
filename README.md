@@ -73,28 +73,6 @@ Handles:
 
 ---
 
-## 🌐 Deployment
-
-Deploy easily using **[Vercel](https://vercel.com)** (recommended for Next.js).  
-You can also use any hosting platform that supports Node.js and Next.js.
-
----
-
-## 📸 Preview
-
-*(You can add a screenshot here later)*  
-![App Preview](./preview.png)
-
----
-
-## 🧠 Learn More
-
-- [Next.js Documentation](https://nextjs.org/docs)  
-- [Solana Web3.js Docs](https://solana-labs.github.io/solana-web3.js/)  
-- [Wallet Adapter Guide](https://github.com/solana-labs/wallet-adapter)  
-
----
-
 ## 👤 Author
 
 **Sujal Sachan**  
