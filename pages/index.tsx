@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import { AppBar } from '../components/AppBar'
 import { SendSolForm } from '../components/SendSolForm'
 import Head from 'next/head'
+import { WalletContextProvider } from '../context/WalletContextProvider'
 
 const Home: NextPage = (props) => {
 
@@ -15,11 +16,14 @@ const Home: NextPage = (props) => {
           content="Wallet-Adapter Example"
         />
       </Head>
+      
+      <WalletContextProvider>
       <AppBar />
       <div className={styles.AppBody}>
         <p>Display Balance Here</p>
         <SendSolForm />
       </div>
+      </WalletContextProvider>
     </div>
   );
 }
